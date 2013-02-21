@@ -1,0 +1,839 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/*
+ * General
+ */
+
+ul {
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'TradeCnObl';
+    src: url('../fonts/tradegothicltstd-cn18obl.eot');
+    src: url('../fonts/tradegothicltstd-cn18obl.eot') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-cn18obl.woff') format('woff'),
+         url('../fontstradegothicltstd-cn18obl.ttf') format('truetype'),
+         url('../fonts/tradegothicltstd-cn18obl.svg#TradeCnObl') format('svg');
+}
+
+@font-face {
+    font-family: 'TradeBoldCn';
+    src: url('../fonts/tradegothicltstd-bdcn20.eot');
+    src: url('../fonts/tradegothicltstd-bdcn20.eot') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-bdcn20.woff') format('woff'),
+         url('../fonts/tradegothicltstd-bdcn20.ttf') format('truetype'),
+         url('../fonts/tradegothicltstd-bdcn20.svg#TradeBoldCn') format('svg');
+}
+
+@font-face {
+    font-family: 'TradeBold';
+    src: url('../fonts/tradegothicltstd-bold.eot');
+    src: url('../fonts/tradegothicltstd-bold.eot') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-bold.woff') format('woff'),
+         url('../fonts/tradegothicltstd-bold.ttf') format('truetype'),
+         url('../fonts/tradegothicltstd-bold.svg#TradeBold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'TradeCn';
+    src: url('../fonts/tradegothicltstd-cn18.eot');
+    src: url('../fonts/tradegothicltstd-cn18.eot') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-cn18.woff') format('woff'),
+         url('../fonts/tradegothicltstd-cn18.ttf') format('truetype'),
+         url('../fonts/tradegothicltstd-cn18.svg#TradeCn') format('svg');
+}
+
+@font-face {
+    font-family: 'Monotype';
+    src: url('../fonts/mtsorts.eot');
+    src: url('../fonts/mtsorts.eot') format('embedded-opentype'),
+         url('../fonts/mtsorts.woff') format('woff'),
+         url('../fonts/mtsorts.ttf') format('truetype'),
+         url('../fonts/mtsorts.svg#Monotype') format('svg');
+}
+
+
+p {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, a, p, li {
+	font-weight: normal;
+}
+
+h1 {
+   font-family: 'TradeCn';
+}
+
+h2 {
+   font-family: 'Tinos', serif;
+}
+
+
+/* ==========================================================================
+   Hoteles Prado del Río
+   ========================================================================== */
+
+
+/*Menu Primary*/
+
+#menu-primary {
+	width: 100%;
+}
+
+#menu-primary ul li {
+	display: inline-block;	
+	text-align: center;
+	padding: 0px 0px;
+}
+
+#menu-primary li a {
+	color: #3b2b20;
+	font-family: 'TradeCn', Helvetica, "Helvetica Neue", Arial;
+	font-size: 0.94em;
+	letter-spacing: 0em;
+	text-transform: uppercase;
+}
+
+#menu-primary li a.active {
+	color: #781919;
+	font-family: 'TradeBoldCn';
+}
+
+#menu-primary li a:hover {
+	color: #781919;
+	text-decoration:underline;
+}
+
+#menu-primary li span {
+	font-family: 'Monotype';
+	color: #781919;
+	font-size: 0.8em;
+	padding: 4px 8px 0px 8px;
+	float: right;
+}
+
+#logo_prado {
+	background: #fff url(../img/logo_prado.jpg) no-repeat top center;
+	border-radius: 0px 0px 5px 5px;
+	margin: 0px auto;
+	position: absolute;
+	width: 190px;
+	height: 50px;
+	left: 36%;
+	text-align: center;
+	text-indent: -999em;
+	z-index: 100000;
+}
+
+
+/*Estructura*/
+
+#principal {
+	border-bottom: 14px solid #3e2d20;
+}
+
+#header-content {
+	max-width: 982px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*Slideshow*/
+
+#home-slideshow {
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
+	zoom: 1;
+}
+
+#home-slideshow .content-text {
+	position: relative;
+	margin: auto;
+	max-width: 982px;
+}
+
+#home-slideshow .text {
+	position: absolute;
+	top: 200px;
+	z-index: 10;
+}
+
+#home-slideshow .text h1 {
+	font-family: 'TradeCn';
+	font-size: 2.5em;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 6px rgba(0,0,0,0.9);
+	margin: 0px 0;
+	line-height: 1.1em;
+	letter-spacing: 0.04em;
+}
+
+#home-slideshow .text h2 {
+	color: white;
+	font-size: 1.8em;
+	margin: 0px 0px 0.3em;
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.9);
+}
+
+#home-slideshow .text .line {
+	border-bottom: 2px dotted #fff;
+	width: 120%;
+	display: block;
+}
+
+#home-slideshow .text a {
+	background-color: rgba(0,0,0,0.52);
+	font-family: 'TradeCn';
+	padding: 8px 6px 3px;
+	border-radius: 5px;
+	font-size: 1.5em;
+	line-height: 1.1em;
+	margin-top: 0.6em;
+	float: left;
+	color: #fff;
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.9);
+	letter-spacing: 0.04em;
+}
+
+#home-slideshow .text h3 {
+	color: white;
+	font-family: 'TradeCnObl';
+	font-size: 1em;
+	clear: both;
+	margin-top: 180px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+#home-slideshow .text a:hover {
+	color: #ccc;
+}
+
+#home-slideshow .img span {
+	background-image: url(../img/repeat/gradient.png);
+	background-repeat: repeat-x;
+	height: 120px;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+/*Content*/
+
+#content {
+	max-width: 982px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#intro {
+	max-width: 500px;
+	margin: 2.2em auto;
+}
+
+#intro h2 {
+	text-align: center;
+	color: #781919;
+	font-size: 1.7em;
+	margin-bottom: 0.2em;
+}
+
+.decor {
+	font-family: 'Monotype';
+	color: #781919;
+	font-size: 1.2em;
+	text-align: center;
+	width: 300px;
+	margin: auto;
+}
+
+.line-red {
+	border-bottom: 1px #781919 solid;
+	display: block;
+	width: 40%;
+	padding-top: 10px;
+}
+
+#list-hotels li {
+   box-shadow:  0px 0px 2px 1px rgba(0,0,0,0.2); 
+   border-radius: 5px 5px 5px 5px;
+   margin: 0px 1.2% 0px 0px;
+   display: inline-block;
+   width: 18.7%;
+   height: 312px;
+   padding: 30px 0px 0px 0px;
+   overflow: hidden;
+   position: relative;
+}
+
+#list-hotels li:last-child {
+	margin: 0px;
+}
+
+#list-hotels li a {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+#list-hotels li .logo {
+	background-position: left center;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#list-hotels li a:hover .logo{
+	background-position: right center;
+}
+
+#list-hotels li .logo_meson {
+	background-image: url(../img/logo_meson_over.png);
+	width: 87px;
+	height: 87px;
+}
+
+#list-hotels li .logo_posada {
+	background-image: url(../img/logo_posada_over.png);
+	width: 82px;
+	height: 87px;
+}
+
+#list-hotels li .logo_balcon {
+	background-image: url(../img/logo_balcon_over.png);
+	width: 89px;
+	height: 90px;
+}
+
+#list-hotels li .logo_niebla {
+	background-image: url(../img/logo_niebla_over.png);
+	width: 90px;
+	height: 90px;
+}
+
+#list-hotels .btn {
+	background-color: #f73f30;
+	border-radius: 7px;
+	display: none;
+	font-size: 0.9em;
+	color: #fff;
+	position: absolute;
+	bottom: 50px;
+	padding: 6px 8px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	left: 30%;
+	font-family: 'TradeCn';
+}
+
+#list-hotels a:hover .btn {
+	display: block;
+}
+
+#list-hotels .title {
+	color: #781919;
+	font-family: 'TradeBoldCn';
+	text-transform: uppercase;
+	clear: both;
+	border-bottom: 1px solid #a28780;
+	line-height: 1.4em;
+	padding-bottom: 6px;
+}
+
+#list-hotels .city {
+	color: #a28780;
+	clear: both;
+	font-family: 'TradeCn';
+	text-transform: uppercase;
+	display: block;
+	padding-top: 12px;
+}
+
+#list-hotels .img {
+	display: block;
+	float: left;
+	margin-top: 8px;
+}
+
+/*Footer*/
+
+footer#hotels{
+	background-color: #33271d;
+	padding: 20px 0px;
+}
+
+#nav-footer ul {
+	text-align: center;
+}
+
+#nav-footer {
+	max-width: 982px;
+	margin: auto;
+}
+
+#nav-footer li {
+	display: inline-block;
+	border-right: 1px solid #e5e2e2;
+	line-height: 0.8em;
+	font-size: 0.83em;
+	padding:0px 6px 0px 6px;
+}
+
+#nav-footer li:last-child {
+	border: none;
+}
+
+#nav-footer a {
+	color:  #e5e2e2;
+	font-weight: lighter;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+#nav-footer a:hover {
+	color:#ab9f94;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Mesón del Alferez Xalapa
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   
+/*
+ * flex slider
+ */
+ 
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-viewport {
+	max-height: 2000px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.flex-viewport li {
+	position: relative;
+	display: none;
+}
+
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.flex-direction-nav a {
+	width: 40px;
+	height: 30px;
+	margin: -20px 0 0;
+	display: block;
+	top: 45%;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	opacity: 0.6;
+	-webkit-transition: all .3s ease;
+}
+
+.flex-direction-nav a:hover {
+	opacity: 1;
+}
+
+.flex-direction-nav .flex-prev {
+	background-image: url(../img/repeat/nav-left.png);
+	text-indent: -9999em;
+	display: block;
+	background-repeat: no-repeat;
+	height: 56px;
+	left:10%;
+}
+
+.flex-direction-nav .flex-next {
+	background-image: url(../img/repeat/nav-right.png);
+	text-indent: -9999em;
+	display: block;
+	background-repeat: no-repeat;
+	height: 56px;
+	right: 10%;
+}
+
+.flex-control-nav {
+	bottom: 14px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 5px;
+	position: absolute;
+}
+
+.flex-control-nav li {
+	margin: 0 6px;
+	display: inline-block;
+	zoom: 1;
+}
+
+.flex-control-nav a {
+	cursor: pointer;
+	color: white;
+	height: 18px;
+	background-image: url(../img/repeat/nav-bullet.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	width: 18px;
+	text-indent: -9999em;
+	display: block;
+}
+
+.flex-control-nav a.flex-active {
+	background-position: right center;
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ *Floats
+ */
+ 
+.f-left {
+	float: left;
+} 
+
+.f-right {
+	float: right;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
