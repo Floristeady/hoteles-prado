@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Hoteles Prado del Río</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
@@ -35,21 +35,22 @@
         <header id="principal">
         
         	<div id="header-content">
+        		
+        		<div id="logo_prado"><a href="/">Hoteles Prado del Río</a></div>
 	        
 			    <nav id="menu-primary">  
 			        <!--nav_primary -->
-			        <ul>
+			        <a class="btn-menu" href="javascript:void(0);"><span class="text">Menú Hoteles</span><span class="img"></span></a>
+			        <ul class="menu-1">
 			            <li><a href="/" class="active">Inicio Hoteles</a><span>k</span></li>
-			            <li><a href="pages/meson_alferez_coatepec_es/">Mesón del Alférez Coatepec</a><span>k</span></li>
-			            <li><a href="pages/posada_cafeto_es/">Posada del Cafeto</a><span>k</span></li>
-			            <li><a href="pages/meson_alferez_xalapa_es/">Mesón del Alférez Xalapa</a><span>k</span></li>
-			            <li><a href="pages/balcon_alferez_es/">Balcón del Alférez</a><span>k</span></li>
-			            <li><a href="pages/hostal_niebla_es/">Hostal de Niebla</a></li>
+			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
+			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
+			            <li><a href="pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
+			            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
+			            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
 			        </ul>
 			        <!--/nav_primary -->
 		        </nav> 
-		        
-		        <div id="logo_prado">Hoteles Prado del Río</div>
 		         
 		    </div>
 			        
@@ -61,33 +62,31 @@
 	        
 	        	<ul class="slides">
 	        		<li class="slide">
-	        			<div class="content-text">
-				        	<div class="text">
-				        		<h1>Visita Xalapa y sus Alrededores</h1>
-					        	<h2>Hospédate con nosotros</h2>
+	        			<span class="content-text">
+				        	<span class="text">
+				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
+					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En el Mesón del Alférez ></a>
-					        	
-					        	<h3>[ Pico de Orizaba ]</h3>
-				        	</div>
-	        			</div>
-			        	<div class="img">
+					        	<a href="pages/mesonalferez-xalapa-es/">En el Mesón del Alférez Xalapa ></a>
+				        	</span>
+				        	<span class="h3">[ Pico de Orizaba ]</span>
+	        			</span>
+			        	<span class="img">
 			        		<span></span>
 				        	<img src="img/hoteles/img01.jpg" alt="img01" width="1400" height="514">
-			        	</div>
+			        	</span>
 		        	</li>
 		        	
 		        	<li class="slide">
-		        		<div class="content-text">
-				        	<div class="text">
-				        		<h1>Visita Xalapa y sus Alrededores</h1>
-					        	<h2>Hospédate con nosotros</h2>
+		        		<span class="content-text">
+				        	<span class="text">
+				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
+					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
 					        	<a href="">En la Posada del Cafeto ></a>
-					        	
-					        	<h3>[ Parque Los Berros ]</h3>
-				        	</div>
-				        </div>
+				        	</span>
+				        	<span class="h3">[ Parque Los Berros ]</span>
+				        </span>
 			        	<div class="img">
 			        	    <span></span>
 				        	<img src="img/hoteles/img02.jpg" alt="img01" width="1400" height="514">
@@ -95,16 +94,15 @@
 		        	</li>
 		        	
 		        	<li class="slide">
-		        		<div class="content-text">
-				        	<div class="text">
-				        		<h1>Visita Coatepec y sus Alrededores</h1>
-					        	<h2>Hospédate con nosotros</h2>
+		        		<span class="content-text">
+				        	<span class="text">
+				        		<span class="h1">Visita Coatepec y sus Alrededores</span>
+					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En el Mesón del Alférez ></a>
-					        	
-					        	<h3>[ Cascada de Texolo ]</h3>
-				        	</div>
-				        </div>
+					        	<a href="">En el Mesón del Alférez Coatepec ></a>
+				        	</span>
+				        		<span class="h3">[ Cascada de Texolo ]</span>
+				        </span>
 			        	<div class="img">
 			        	    <span></span>
 				        	<img src="img/hoteles/img03.jpg" alt="img01" width="1400" height="514">
@@ -112,16 +110,15 @@
 		        	</li>
 		        	
 		        	<li class="slide">
-		        		<div class="content-text">
-				        	<div class="text">
-				        		<h1>Visita Xalapa y sus Alrededores</h1>
-					        	<h2>Hospédate con nosotros</h2>
+		        		<span class="content-text">
+				        	<span class="text">
+				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
+					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
 					        	<a href="">En el Balcón del Alférez ></a>
-					        	
-					        	<h3>[ Museo de Antropología ]</h3>
-				        	</div>
-				        </div>
+				        	</span>
+				        	<span class="h3">[ Museo de Antropología ]</span>
+				        </span>
 			        	<div class="img">
 			        	    <span></span>
 				        	<img src="img/hoteles/img04.jpg" alt="img01" width="1400" height="514">
@@ -129,16 +126,15 @@
 		        	</li>
 		        	
 		        	<li class="slide">
-		        		<div class="content-text">
-				        	<div class="text">
-				        		<h1>Visita Xalapa y sus Alrededores</h1>
-					        	<h2>Hospédate con nosotros</h2>
+		        		<span class="content-text">
+				        	<span class="text">
+				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
+					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
 					        	<a href="">En el Hostal de Niebla ></a>
-					        	
-					        	<h3>[ Iglesia de San José ]</h3>
-				        	</div>
-				        </div>
+				        	</span>
+				        	   <span class="h3">[ Iglesia de San José ]</span>
+				        </span>
 			        	<div class="img">
 			        	    <span></span>
 				        	<img src="img/hoteles/img05.jpg" alt="img01" width="1400" height="514">
@@ -161,24 +157,29 @@
 			 	
 			 	<ul id="list-hotels">
 				 	<li>
-					 	<a href="#">
-						 	<span class="logo logo_meson"></span>
-						 	<span class="text">
-						 		<span class="title">Mesón del Alférez</span>
-						 		<span class="city">Coatepec</span>
-						 	</span>
+					 	<a href="pages/mesonalferez-xalapa-es/">
+					 		<span class="list-content">
+							 	<span class="logo logo_meson"></span>
+							 	<span class="text">
+							 		<span class="title">Mesón del Alférez</span>
+							 		<span class="city">Xalapa</span>
+							 	</span>
+							 </span>
 						 	<span class="btn">Más Info ></span>
-						 	<span class="img"><img src="img/hoteles/mesoncoa00.jpg" alt="Mesón del Alférez"></span>
+						 	<span class="img"><img src="img/hoteles/mesonxlp00.jpg" alt="Mesón del Alférez"></span>
 					 	</a>
 				 	</li>
 				 	
+				 	
 				 	<li>
 					 	<a href="#">
-						 	<span class="logo logo_posada"></span>
-						 	<span class="text">
-						 		<span class="title">Posada del Cafeto</span>
-						 		<span class="city">Xalapa</span>
-						 	</span>
+					 	    <span class="list-content">
+							 	<span class="logo logo_posada"></span>
+							 	<span class="text">
+							 		<span class="title">Posada del Cafeto</span>
+							 		<span class="city">Xalapa</span>
+							 	</span>
+							 </span>
 						 	<span class="btn">Más Info ></span>
 						 	<span class="img"><img src="img/hoteles/mesoncafeto00.jpg" alt="Mesón del Alférez"></span>
 					 	</a>
@@ -186,23 +187,28 @@
 				 	
 				 	<li>
 					 	<a href="#">
-						 	<span class="logo logo_meson"></span>
-						 	<span class="text">
-						 		<span class="title">Mesón del Alférez</span>
-						 		<span class="city">Xalapa</span>
+					 	    <span class="list-content">
+							 	<span class="logo logo_meson"></span>
+							 	<span class="text">
+							 		<span class="title">Mesón del Alférez</span>
+							 		<span class="city">Coatepec</span>
+							 	</span>
 						 	</span>
 						 	<span class="btn">Más Info ></span>
-						 	<span class="img"><img src="img/hoteles/mesonxlp00.jpg" alt="Mesón del Alférez"></span>
+						 	<span class="img"><img src="img/hoteles/mesoncoa00.jpg" alt="Mesón del Alférez"></span>
 					 	</a>
 				 	</li>
 				 	
+				 	
 				 	<li>
 					 	<a href="#">
-						 	<span class="logo logo_balcon"></span>
-						 	<span class="text">
-						 		<span class="title">Balcón del Alférez</span>
-						 		<span class="city">Xalapa</span>
-						 	</span>
+					 		<span class="list-content">
+						 		<span class="logo logo_balcon"></span>
+							 	<span class="text">
+							 		<span class="title">Balcón del Alférez</span>
+							 		<span class="city">Xalapa</span>
+							 	</span>
+							</span>
 						 	<span class="btn">Más Info ></span>
 						 	<span class="img"><img src="img/hoteles/mesonbalcon00.jpg" alt="Mesón del Alférez"></span>
 
@@ -211,11 +217,13 @@
 				 	
 				 	<li>
 					 	<a href="#">
-						 	<span class="logo logo_niebla"></span>
-						 	<span class="text">
-						 		<span class="title">Hostal de Niebla</span>
-						 		<span class="city">Xalapa</span>
-						 	</span>
+					 		<span class="list-content">
+						 		<span class="logo logo_niebla"></span>
+							 	<span class="text">
+							 		<span class="title">Hostal de Niebla</span>
+							 		<span class="city">Xalapa</span>
+							 	</span>
+							 </span>
 						 	<span class="btn">Más Info ></span>
 						 	<span class="img"><img src="img/hoteles/mesonniebla00.jpg" alt="Mesón del Alférez"></span>
 					 	</a>
@@ -234,11 +242,11 @@
         	<nav id="nav-footer">
 	        	<!--nav_footer -->
 		        <ul>
-		            <li><a href="pages/meson_alferez_coatepec_es/">Mesón del Alférez Coatepec</a></li>
-		            <li><a href="pages/posada_cafeto_es/">Posada del Cafeto</a></li>
-		            <li><a href="pages/meson_alferez_xalapa_es/">Mesón del Alférez Xalapa</a></li>
-		            <li><a href="pages/balcon_alferez_es/">Balcón del Alférez</a></li>
-		            <li><a href="pages/hostal_niebla_es/">Hostal de Niebla</a></li>
+		            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
+		            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
+		            <li><a href="pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a></li>
+		            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a></li>
+		            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
 		        </ul>
 		        <!--/nav_footer -->
 	        </nav>
