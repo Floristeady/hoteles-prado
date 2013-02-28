@@ -18,7 +18,8 @@ $template = $pages[$page_id]["template"];
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -34,8 +35,14 @@ $template = $pages[$page_id]["template"];
          <meta name="rating" content="General"/>
          <meta name="language" content="español"/>
          <meta name="robots" content="All"/>
+         
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="../../favicon.ico">
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../../apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../apple-touch-icon-114x114.png">
 
         <link rel="stylesheet" href="../../css/normalize.css">
         <link rel="stylesheet" href="../../css/main.css">
@@ -43,8 +50,8 @@ $template = $pages[$page_id]["template"];
         
     </head>
     <body id="pages" class="meson-xlp">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">Estás usando un navegador desactualizado. <a href="http://browsehappy.com/">Actualiza hoy tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true"> instala Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
+        <!--[if lt IE 8]>
+            <p class="chromeframe">Estás usando un navegador desactualizado. <a target="_blank" href="http://browsehappy.com/">Actualiza hoy tu navegador</a> o <a target="_blank" href="http://www.google.com/chromeframe/?redirect=true"> instala Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
         <![endif]-->
         <header>
         
@@ -58,11 +65,11 @@ $template = $pages[$page_id]["template"];
 
 			        <ul class="menu-1">
 			            <li><a href="/" class="active">Inicio Hoteles</a><span>k</span></li>
-			            <li><a href="../pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
-			            <li><a href="../pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
-			            <li><a href="/pages/mesonalfere-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
-			            <li><a href="../pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
-			            <li><a href="../pages/hostalniebla-es/">Hostal de Niebla</a></li>
+			            <li><a href="/pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
+			            <li><a href="/pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
+			             <li><a href="/pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
+			            <li><a href="/pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
+			            <li><a href="/pages/hostalniebla-es/">Hostal de Niebla</a></li>
 			        </ul>
 			    </nav> 	 
 			    <!--/nav_primary -->
@@ -84,8 +91,8 @@ $template = $pages[$page_id]["template"];
 				        </ul>
 				        
 				        <ul class="menu-lang">
-				        	<li class="lang"><a title="Español" class="es active" href="/">ES</a></li>
-						    <li class="lang"><a title="English" class="en" href="/">EN</a></li>
+				        	<li class="lang"><a title="Español" class="es active" href="/pages/mesonalferez-xalapa-es/">ES</a></li>
+						    <li class="lang"><a title="English" class="en" href="/pages/mesonalferez-xalapa-en/">EN</a></li>
 						</ul>
 
 					 </div><!--/menu-content -->
@@ -113,9 +120,10 @@ $template = $pages[$page_id]["template"];
 	        	<div class="col-right">
 		        	<h4>Visítanos en:</h4>
 		        	<ul>
-			        	<li><a target="_blank" href="">> Facebook</a></li>
-			        	<li><a target="_blank" href="">> Twitter</a></li>
-			        	<li><a target="_blank" href="">> TripAdvisor</a></li>
+			        	<li><a target="_blank" href="https://www.facebook.com/meson.alferezxalapa">> Facebook</a></li>
+			        	<li><a target="_blank" href="https://www.facebook.com/lacandela.restaurante">> Facebook La Candela</a></li>
+			        	<li><a target="_blank" href="https://twitter.com/alferezxalapa">> Twitter</a></li>
+			        	<li><a target="_blank" href="http://www.tripadvisor.com.mx/Hotel_Review-g154235-d152787-Reviews-Meson_del_Alferez_Xalapa-Xalapa_Central_Mexico_and_Gulf_Coast.html">> TripAdvisor</a></li>
 			        	
 		        	</ul>
 	        	</div>
@@ -123,9 +131,9 @@ $template = $pages[$page_id]["template"];
 		        <nav id="nav-footer">
 		        	<!--nav_footer -->
 			        <ul>
-			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
-			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
 			            <li><a href="pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a></li>
+			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
+			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
 			            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a></li>
 			            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
 			        </ul>

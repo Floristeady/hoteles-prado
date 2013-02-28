@@ -80,3 +80,21 @@ $(function() {
    });
 
 });
+
+/*----------- Correction CSS -----------*/
+$(function() {
+	$('#list-hotels li:last-child').css("margin", "0");
+});
+
+
+/*----------- Fix Font -----------*/
+$(document).ready(function(){
+
+    $("a, h2, #menu-primary li span").ieffembedfix();
+
+});
+
+
+
+
+

@@ -5,7 +5,7 @@
 	<div id="content-text">
 	    <span class="text">
 	    	<h2><span class="line-white-2 f-left"></span>Mesón del Alférez Xalapa<span class="line-white-2 f-right"></span></h2>
-	    	<a class="btn-booking" href="#">Reservaciones</a>
+	    	<a class="btn-booking" target="_blank" href="https://reservations.easy-rez.com/be/?token=d66a1c737af6627e3d55e5b64ec4749a&ln=es">Reservaciones</a>
 		</span>
 	</div>
         
@@ -51,7 +51,7 @@
 		
 		<div class="col-left">
 			<div class="left-side">
-				<h2>La experiencia de sentirse en una hermosa posada colonial</h2>
+				<h2>La experiencia de alojarse en una hermosa posada colonial</h2>
 				<div class="decor"><span class="line-red f-left"></span>k<span class="line-red f-right"></span></div>
 			</div>
 			<p>El Mesón del Alférez Xalapa es un agradable hotel de estilo colonial  con habitaciones acogedoras, cada una con identidad propia. Además de tener una excelente ubicación en el centro de la ciudad de Xalapa, su restaurante La Candela  ofrece  uno de los mejores desayunos  de la ciudad.</p>
@@ -193,7 +193,8 @@
 				</div>
 			     <!--aqui va el mapa-->
 			     <div class="mapa-content">
-			     <iframe width="972" height="418" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps/ms?msa=0&amp;msid=213440949833234594875.0004d658593839c997d9f&amp;hl=es-419&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=19.526384,-96.915121&amp;spn=0.033814,0.083342&amp;z=14&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com.mx/maps/ms?msa=0&amp;msid=213440949833234594875.0004d658593839c997d9f&amp;hl=es-419&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=19.526384,-96.915121&amp;spn=0.033814,0.083342&amp;z=14" style="color:#f73f30;text-align:left">Mesón del Alférez Xalapa</a> en un mapa ampliado</small>
+			     <iframe width="972" height="418" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps/ms?msa=0&amp;msid=213440949833234594875.0004d658593839c997d9f&amp;hl=es-419&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=19.526627,-96.917868&amp;spn=0.016907,0.041671&amp;z=15&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com.mx/maps/ms?msa=0&amp;msid=213440949833234594875.0004d658593839c997d9f&amp;hl=es-419&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=19.526627,-96.917868&amp;spn=0.016907,0.041671&amp;z=15" target="_blank" style="color:#f73f30;text-align:left">Mesón del Alférez Xalapa</a> en un mapa ampliado</small>
+			    
 				
 				</div>
 		</div>

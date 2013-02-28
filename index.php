@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -29,8 +30,8 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">Estás usando un navegador desactualizado. <a href="http://browsehappy.com/">Actualiza hoy tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true"> instala Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
+        <!--[if lt IE 8]>
+            <p class="chromeframe">Estás usando un navegador desactualizado. <a target="_blank" href="http://browsehappy.com/">Actualiza hoy tu navegador</a> o <a target="_blank" href="http://www.google.com/chromeframe/?redirect=true"> instala Google Chrome Frame</a> para una mejor experiencia en este sitio web.</p>
         <![endif]-->
         <header id="principal">
         
@@ -43,9 +44,9 @@
 			        <a class="btn-menu" href="javascript:void(0);"><span class="text">Menú Hoteles</span><span class="img"></span></a>
 			        <ul class="menu-1">
 			            <li><a href="/" class="active">Inicio Hoteles</a><span>k</span></li>
-			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
-			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
 			            <li><a href="pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
+			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
+			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
 			            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
 			            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
 			        </ul>
@@ -242,9 +243,9 @@
         	<nav id="nav-footer">
 	        	<!--nav_footer -->
 		        <ul>
-		            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
-		            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
 		            <li><a href="pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a></li>
+		            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
+		            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
 		            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a></li>
 		            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
 		        </ul>
