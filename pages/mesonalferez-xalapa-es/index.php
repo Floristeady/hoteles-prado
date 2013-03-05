@@ -4,7 +4,7 @@ if (isset($_GET["page_id"]) )
 else
 	$page_id = 0;
 
-$pages[0] = array("template" => "nuestro_hotel");
+$pages[0] = array("template" => "nuestro-hotel");
 $pages[1] = array("template" => "habitaciones");
 $pages[2] = array("template" => "restaurante");
 $pages[3] = array("template" => "tarifas");
@@ -31,9 +31,7 @@ $template = $pages[$page_id]["template"];
          <!-- SEO Meta tags -->
          <meta name="description" content="Hotel Mesón de Alférez Xalapa | Hoteles Prado del río"/>
          <meta name="keywords" content="xalapa, hotel, méxico, veracruz, hoteles, hostal, habitaciones, turismo, actividades, viaje, centro, paseos, ventas, tarifas, restaurante, desayunos, camas, reservas, reservaciones, habitación, comidas, conocer"/>
-         <meta name="category" content="Hoteles"/>
          <meta name="rating" content="General"/>
-         <meta name="language" content="español"/>
          <meta name="robots" content="All"/>
          
 
@@ -64,12 +62,12 @@ $template = $pages[$page_id]["template"];
 			        <a class="btn-menu" href="javascript:void(0);"><span class="text">Menú Hoteles</span><span class="img"></span></a>
 
 			        <ul class="menu-1">
-			            <li><a href="/" class="active">Inicio Hoteles</a><span>k</span></li>
-			            <li><a href="/pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
+			            <li><a href="/">Inicio Hoteles</a><span>k</span></li>
+			            <li><a class="active" href="/pages/mesonalferez-xalapa-es/">Mesón del Alférez Xalapa</a><span>k</span></li>
 			            <li><a href="/pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
 			             <li><a href="/pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
 			            <li><a href="/pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
-			            <li><a href="/pages/hostalniebla-es/">Hostal de Niebla</a></li>
+			            <li><a href="/pages/hostalniebla-es/">Hostal de la Niebla</a></li>
 			        </ul>
 			    </nav> 	 
 			    <!--/nav_primary -->
@@ -113,7 +111,7 @@ $template = $pages[$page_id]["template"];
 	        	
 	        	<div class="col-left">
 		        	<p><strong>Mesón del Alférez Xalapa</strong><br/>
-		        	Sebastián Camacho 2  Esq. Zaragoza. Xalapa, Ver. México. CP: 91000<br/>
+		        	Sebastián Camacho 2 Esq. Zaragoza. Xalapa, Ver. México. 91000.<br/>
 		        	Teléfono: (228) 816-6744 - 816-8471 / Correo Electrónico: <span>alferezxalapa@pradodelrio.com</span></p>
 	        	</div>
 	        	
@@ -135,7 +133,7 @@ $template = $pages[$page_id]["template"];
 			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
 			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
 			            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a></li>
-			            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
+			            <li><a href="pages/hostalniebla-es/">Hostal de la Niebla</a></li>
 			        </ul>
 			        <!--/nav_footer -->
 		        </nav>
@@ -143,18 +141,24 @@ $template = $pages[$page_id]["template"];
         </footer>
         
                 
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>-->
-        <script src="../../js/vendor/jquery-1.8.0.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="../../js/plugins.js"></script>
         <script src="../../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+       <script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-38934991-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
     </body>
 </html>

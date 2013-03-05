@@ -22,7 +22,7 @@
 				<div class="col-left">
 					<h4>Habitación Sencilla – Una cama matrimonial</h4>
 					<p>Confortable habitación de estilo colonial con una cómoda cama matrimonial, televisión LCD de 22 pulgadas con una selección de canales nacionales e internacionales, caja de seguridad, secadora de cabello, ventilador y teléfono, internet gratuito, cafetera con café de la región y agua embotellada de cortesía.  Comience el día con un desayuno continental de cortesía.</p>
-					<a href="#reservas">Te invitamos a reservar ></a>
+					<a target="_blank" href="https://reservations.easy-rez.com/be/?token=d66a1c737af6627e3d55e5b64ec4749a&ln=es">Te invitamos a reservar ></a>
 				</div>
 				
 				<div class="col-right">
@@ -36,7 +36,7 @@
 				<div class="col-left">
 					<h4>Habitación Suite -  Dos camas matrimoniales</h4>
 					<p>Confortable habitación de estilo colonial en dos niveles con dos cómodas camas matrimoniales, televisión LCD de 32 pulgadas con selección de canales nacionales e internacionales, caja fuerte, secadora de cabello, ventilador, teléfono, cafetera con café de la región y agua embotellada de cortesía. Comience el día con un desayuno continental de cortesía.  </p>
-					<a href="#reservas">Te invitamos a reservar ></a>
+					<a target="_blank" href="https://reservations.easy-rez.com/be/?token=d66a1c737af6627e3d55e5b64ec4749a&ln=es">Te invitamos a reservar ></a>
 				</div>
 				
 				<div class="col-right">

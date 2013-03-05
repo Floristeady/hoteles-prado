@@ -14,9 +14,7 @@
          <!-- SEO Meta tags -->
          <meta name="description" content="Hoteles Prado del Río en Xalapa y Coatepec."/>
          <meta name="keywords" content="xalapa, coatepec, hotel, méxico, veracruz, hoteles, hostal, habitaciones, turismo, actividades, viaje, centro, paseos, ventas, tarifas, restaurante, desayunos, camas, reservas, reservaciones, habitación, comidas, conocer"/>
-         <meta name="category" content="Hoteles"/>
          <meta name="rating" content="General"/>
-         <meta name="language" content="español"/>
          <meta name="robots" content="All"/>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -48,7 +46,7 @@
 			            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a><span>k</span></li>
 			            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a><span>k</span></li>
 			            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a><span>k</span></li>
-			            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
+			            <li><a href="pages/hostalniebla-es/">Hostal de la Niebla</a></li>
 			        </ul>
 			        <!--/nav_primary -->
 		        </nav> 
@@ -84,7 +82,7 @@
 				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
 					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En la Posada del Cafeto ></a>
+					        	<a href="pages/posadacafeto-es/">En la Posada del Cafeto ></a>
 				        	</span>
 				        	<span class="h3">[ Parque Los Berros ]</span>
 				        </span>
@@ -100,7 +98,7 @@
 				        		<span class="h1">Visita Coatepec y sus Alrededores</span>
 					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En el Mesón del Alférez Coatepec ></a>
+					        	<a href="pages/mesonalferez-coatepec-es/">En el Mesón del Alférez Coatepec ></a>
 				        	</span>
 				        		<span class="h3">[ Cascada de Texolo ]</span>
 				        </span>
@@ -116,7 +114,7 @@
 				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
 					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En el Balcón del Alférez ></a>
+					        	<a href="pages/balconalferez-es/">En el Balcón del Alférez ></a>
 				        	</span>
 				        	<span class="h3">[ Museo de Antropología ]</span>
 				        </span>
@@ -132,7 +130,7 @@
 				        		<span class="h1">Visita Xalapa y sus Alrededores</span>
 					        	<span class="h2">Hospédate con nosotros</span>
 					        	<span class="line"></span>
-					        	<a href="">En el Hostal de Niebla ></a>
+					        	<a href="pages/hostalniebla-es/">En el Hostal de la Niebla ></a>
 				        	</span>
 				        	   <span class="h3">[ Iglesia de San José ]</span>
 				        </span>
@@ -173,7 +171,7 @@
 				 	
 				 	
 				 	<li>
-					 	<a href="#">
+					 	<a href="pages/posadacafeto-es/">
 					 	    <span class="list-content">
 							 	<span class="logo logo_posada"></span>
 							 	<span class="text">
@@ -187,7 +185,7 @@
 				 	</li>
 				 	
 				 	<li>
-					 	<a href="#">
+					 	<a href="pages/mesonalferez-coatepec-es/">
 					 	    <span class="list-content">
 							 	<span class="logo logo_meson"></span>
 							 	<span class="text">
@@ -202,7 +200,7 @@
 				 	
 				 	
 				 	<li>
-					 	<a href="#">
+					 	<a href="pages/balconalferez-es/">
 					 		<span class="list-content">
 						 		<span class="logo logo_balcon"></span>
 							 	<span class="text">
@@ -217,11 +215,11 @@
 				 	</li>
 				 	
 				 	<li>
-					 	<a href="#">
+					 	<a href="pages/hostalniebla-es/">
 					 		<span class="list-content">
 						 		<span class="logo logo_niebla"></span>
 							 	<span class="text">
-							 		<span class="title">Hostal de Niebla</span>
+							 		<span class="title">Hostal de la Niebla</span>
 							 		<span class="city">Xalapa</span>
 							 	</span>
 							 </span>
@@ -247,7 +245,7 @@
 		            <li><a href="pages/posadacafeto-es/">Posada del Cafeto</a></li>
 		            <li><a href="pages/mesonalferez-coatepec-es/">Mesón del Alférez Coatepec</a></li>
 		            <li><a href="pages/balconalferez-es/">Balcón del Alférez</a></li>
-		            <li><a href="pages/hostalniebla-es/">Hostal de Niebla</a></li>
+		            <li><a href="pages/hostalniebla-es/">Hostal de la Niebla</a></li>
 		        </ul>
 		        <!--/nav_footer -->
 	        </nav>
@@ -256,12 +254,12 @@
 
        
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <!--Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-38934991-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>-->
+        </script>
     </body>
 </html>
