@@ -118,7 +118,7 @@ function enviaMail(){
 		<option value="Hotel Posada del Cafeto">Hotel Posada del Cafeto</option>
 		<option value="Hotel Mesón del Alférez Coatepec">Hotel Mesón del Alférez Coatepec</option>
 		<option value="Hotel Balcón del Alférez">Hotel Balcón del Alférez</option>
-		<option value="Hostal de Niebla">Hostal de Niebla</option>
+		<option value="Hostal de Niebla">Hostal de la Niebla</option>
 		</select>
 	</div>
 	

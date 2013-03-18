@@ -84,7 +84,7 @@ $template = $pages[$page_id]["template"];
 					        <li class="center"><a></a></li>
 					        <li><a href="?page_id=3" class="<?php if ($page_id == 3) { ?>active<? } ?> ">Tarifas</a></li>
 					        <li><a href="?page_id=4" class="<?php if ($page_id == 4) { ?>active<? } ?>" >Acerca de Xalapa</a></li>
-					        <li><a href="?page_id=5" class="<?php if ($page_id == 5) { ?>active<? } ?>">Reservaciones</a></li>
+					        <li><a target="_blank" href="https://reservations.easy-rez.com/be/?token=d66a1c737af6627e3d55e5b64ec4749a&ln=es" class="<?php if ($page_id == 5) { ?>active<? } ?>">Reservaciones</a></li>
 
 				        </ul>
 				        
@@ -112,7 +112,7 @@ $template = $pages[$page_id]["template"];
 	        	<div class="col-left">
 		        	<p><strong>Mesón del Alférez Xalapa</strong><br/>
 		        	Sebastián Camacho 2 Esq. Zaragoza. Xalapa, Ver. México. 91000.<br/>
-		        	Teléfono: (228) 816-6744 - 816-8471 / Correo Electrónico: <span>alferezxalapa@pradodelrio.com</span></p>
+		        	Teléfono: (228) 818 0113 / 818 6351 / Correo Electrónico: <span>alferezxalapa@pradodelrio.com</span></p>
 	        	</div>
 	        	
 	        	<div class="col-right">

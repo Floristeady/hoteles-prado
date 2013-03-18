@@ -112,7 +112,7 @@ $template = $pages[$page_id]["template"];
 	        	<div class="col-left">
 		        	<p><strong>Mesón del Alférez Xalapa</strong><br/>
 		        	Sebastián Camacho 2 Esq. Zaragoza. Xalapa, Ver. México. 91000.<br/>
-		        	Phones: (228) 816-6744 - 816-8471 / Email: <span>alferezxalapa@pradodelrio.com</span></p>
+		        	Phones: (228) 818 0113 / 818 6351 / Email: <span>alferezxalapa@pradodelrio.com</span></p>
 	        	</div>
 	        	
 	        	<div class="col-right">

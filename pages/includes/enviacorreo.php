@@ -44,6 +44,6 @@
 	if (mail("reservaciones@pradodelrio.com", "Informacion de Reservacion de Hoteles Prado del Rio", $mensaje)) {
 		print "Tu correo de reservaci&oacute;n se ha enviado correctamente, gracias.";
 	} else {
-		print "Ha ocurrido un problema y no pudimos enviar el correo de reservaci&oacute;n, por favor, intentalo m&aacute;s tarde.";
+		print "Ha ocurrido un problema y no pudimos enviar el correo de reservaci&oacute;n, por favor, int&eacute;ntalo m&aacute;s tarde.";
 	}
 ?>

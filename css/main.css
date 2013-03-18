@@ -300,7 +300,7 @@ a {
 #menu-primary ul {
 	text-align: center;
 	margin: 1em 0px;
-	padding-left: 30px;
+	padding-left: 25px;
 }
 
 #menu-primary ul li {
@@ -2006,7 +2006,7 @@ td p {
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) { 
 	#header-content {min-height: 66px;}
-    #menu-primary ul {background-color:white; border-top: 1px solid #aa9987; display: none; margin-top: 66px; z-index: 1000000; width: 100%;position: absolute;}
+    #menu-primary ul {background-color:white; border-top: 1px solid #aa9987; display: none; margin-top: 66px; z-index: 1000000; width: 100%;position: absolute; padding-left:0px; }
     #menu-primary ul li {display: block; clear: both;text-align: left;padding: 5px 2%;border-bottom: 1px solid #aa9987;}
     #menu-primary li span {display: none;}
     #menu-primary .btn-menu {display: block; margin-top: 28px; margin-right: 5%;}
@@ -2078,7 +2078,8 @@ td p {
 	
 	
 	
-	#footer-content .col-right {display: none;}
+	#footer-content .col-right {float: none; margin: 0 2.5%; width: 95%;}
+	#footer-content .col-right li {display: inline-block; float: left; padding-right: 10px;}
 	#footer-content .col-left {margin: 0 2.5%; width: 95%;}
 	#footer-pages #nav-footer ul {text-align: left;}
 	
