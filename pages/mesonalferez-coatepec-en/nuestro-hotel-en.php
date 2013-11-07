@@ -59,6 +59,7 @@
 					<li><span class="icon-address"></span>Jiménez del Campillo No.47, centro, Coatepec, Ver.  México.</li>
 					<li class="two"><span class="icon-phone"></span>(228) 816 6744 / 816 8471</li>
 					<li class="three"><span class="icon-email"></span>alferezcoatepec@pradodelrio.com   </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/meson.delalferezcoatepec"><span class="icon-face"></span><span class="text-face">Visit us on <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>

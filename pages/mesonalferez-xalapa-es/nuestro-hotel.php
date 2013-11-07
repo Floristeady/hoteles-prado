@@ -64,6 +64,7 @@
 					<li><span class="icon-address"></span>Sebastián Camacho 2 Esq. Zaragoza. Xalapa, Ver. México. 91000.</li>
 					<li class="two"><span class="icon-phone"></span>(228) 818 0113 / 818 6351</li>
 					<li class="three"><span class="icon-email"></span>alferezxalapa@pradodelrio.com </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/meson.alferezxalapa"><span class="icon-face"></span><span class="text-face">Visítanos en <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>

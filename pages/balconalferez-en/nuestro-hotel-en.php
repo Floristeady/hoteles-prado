@@ -53,6 +53,7 @@
 					<li><span class="icon-address"></span>Prolongación de Allende No. 6. Xalapa, Ver. México. 91000</li>
 					<li class="two"><span class="icon-phone"></span>(228) 818 0113 / 818 6351</li>
 					<li class="three"><span class="icon-email"></span>balcon@pradodelrio.com </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/pages/Balcon-del-Alferez/502096139853498"><span class="icon-face"></span><span class="text-face">Visit us on <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>

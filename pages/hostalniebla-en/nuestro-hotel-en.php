@@ -5,7 +5,7 @@
 	<div id="content-text">
 	    <span class="text">
 	    	<h2><span class="line-white-2 f-left"></span>Hostal de la Niebla<span class="line-white-2 f-right"></span></h2>
-	    	<a class="btn-booking" target="_blank" href="http://www.hostelbookers.com/hostels/mexico/xalapa/5917/ ">Reservations</a>
+	    	<a class="btn-booking" href="http://www.powerhostels.com/hbaffiliate/index.cfm?affid=5917&hostel=5917">Reservations</a>
 		</span>
 	</div>
         
@@ -59,6 +59,7 @@
 					<li><span class="icon-address"></span>Zamora 24, Col.Centro Xalapa, Ver. México. 91000</li>
 					<li class="two"><span class="icon-phone"></span>(228) 817 2174 / (228) 818 2842</li>
 					<li class="three"><span class="icon-email"></span>niebla@pradodelrio.com </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/hostal.delaniebla"><span class="icon-face"></span><span class="text-face">Visit us on <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>
@@ -82,7 +83,8 @@
 					<li>Tourist information </li> 
 					<li>Cable TV in common room and in private rooms </li> 
 					<li>Waiting area</li> 
-					<li>Comfortable areas and patios. </li> 
+					<li>Comfortable areas and patios</li>
+					<li>Common room with kitchenette</li>
 				</ul>
 			</div>
 			

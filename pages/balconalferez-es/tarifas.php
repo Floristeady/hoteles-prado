@@ -22,22 +22,26 @@
 			  <tr>
 			    <td><p><strong>Habitaciones</strong></p></td>
 			    <td><p><strong>1 ó 2 personas</strong></p></p></td>
-			    <td><p><strong>3 ó 4 personas</strong></td>
+			    <td><p><strong>3 personas</strong></td>
+			    <td><p><strong>4 personas</strong></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SENCILLA</strong></p></td>
-			    <td><p>$650</p></td>
+			    <td><p>$710</p></td>
+			    <td><p>--</p></td>
 			    <td><p>--</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>JR SUITE</strong></p></td>
-			     <td><p>$750</p></td>
+			      <td><p>$820</p></td>
 			    <td><p>--</p></td>
+			     <td><p>--</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SUITE</strong></p></td>
-			     <td><p>$850</p></td>
-			    <td><p>$950</p></td>
+			         <td><p>$930</p></td>
+			    <td><p>$985</p></td>
+			     <td><p>$1040</p></td>
 			  </tr>
 			</table>
 			

@@ -22,17 +22,20 @@
 			  <tr>
 			    <td><p><strong>Habitaciones</strong></p></td>
 			    <td><p><strong>1 ó 2 personas</strong></p></p></td>
-			    <td><p><strong>3 ó 4 personas</strong></td>
+			    <td><p><strong>3 personas</strong></td>
+			    <td><p><strong>4 personas</strong></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SENCILLA</strong></p></td>
-			    <td><p>$750</p></td>
+			    <td><p>$790</p></td>
+			    <td><p>---</p></td>
 			    <td><p>---</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SUITE</strong></p></td>
-			    <td><p>$930</p></td>
-			    <td><p>$1,050</p></td>
+			    <td><p>$970</p></td>
+			    <td><p>$1,060</p></td>
+			     <td><p>$1,150</p></td>
 			  </tr>
 			</table>
 			

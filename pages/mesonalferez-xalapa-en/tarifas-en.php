@@ -22,17 +22,20 @@
 			  <tr>
 			    <td><p><strong>Rooms</strong></p></td>
 			    <td><p><strong>1 or 2 Guests</strong></p></p></td>
-			    <td><p><strong>3 or 4 Guests</strong></td>
+			    <td><p><strong>3 Guests</strong></td>
+			    <td><p><strong>4 Guests</strong></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>STANDARD</strong></p></td>
-			    <td><p>$750</p></td>
+			    <td><p>$790</p></td>
+			    <td><p>---</p></td>
 			    <td><p>---</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SUITE</strong></p></td>
-			    <td><p>$930</p></td>
-			    <td><p>$1,050</p></td>
+			    <td><p>$970</p></td>
+			    <td><p>$1,060</p></td>
+			    <td><p>$1,150</p></td>
 			  </tr>
 			</table>
 			

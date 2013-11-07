@@ -83,7 +83,7 @@ $template = $pages[$page_id]["template"];
 					        <li><a href="?page_id=3" class="<?php if ($page_id == 3) { ?>active<? } ?> ">Rates</a></li>
 					        <li class="center"><a></a></li>
 					        <li><a href="?page_id=4" class="<?php if ($page_id == 4) { ?>active<? } ?>" >About Xalapa</a></li>
-					        <li><a target="_blank" href="http://www.hostelbookers.com/hostels/mexico/xalapa/5917/" class="<?php if ($page_id == 5) { ?>active<? } ?>">Reservations</a></li>
+					        <li><a target="_blank" href="http://www.powerhostels.com/hbaffiliate/index.cfm?affid=5917&hostel=5917" class="<?php if ($page_id == 5) { ?>active<? } ?>">Reservations</a></li>
 
 				        </ul>
 				        

@@ -59,6 +59,7 @@
 					<li><span class="icon-address"></span>Jiménez del Campillo No.47, centro, Coatepec, Ver.  México.</li>
 					<li class="two"><span class="icon-phone"></span>(228) 816 6744 / 816 8471</li>
 					<li class="three"><span class="icon-email"></span>alferezcoatepec@pradodelrio.com   </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/meson.delalferezcoatepec"><span class="icon-face"></span><span class="text-face">Visítanos en <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>
@@ -79,8 +80,8 @@
 					<li>Cafetera </li> 
 					<li>Desayuno caliente incluido</li> 
 					<li>Internet inalámbrico en habitación</li> 
+					<li>Restaurante (desayunos)</li> 
 					<li>Caja de seguridad </li> 
-					<li>Restaurante </li> 
 					<li>Estacionamiento cercano incluido </li> 
 					<li>Lavandería (costo adicional)</li> 
 				</ul>

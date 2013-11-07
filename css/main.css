@@ -197,7 +197,7 @@ p, li, label {
 	line-height: 1.4em;
 	color: #3b2b20;
 	text-rendering: optimizeLegibility;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, a {
@@ -970,6 +970,35 @@ footer#hotels{
 	display: block;
 	width: 25px;
 	margin: 2px 0px 0px 2px;
+}
+
+.icon-face {
+	background-image: url(../img/CSS_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -525px -150px;
+	float: left;
+	height: 32px;
+	display: block;
+	width: 32px;
+	margin: 2px 0px 0px 2px;
+}
+
+.color {
+	color: #c23126;
+}
+
+.four a {
+	color: #1a1a1a;
+	font-size: 1em;
+}
+
+.four a:hover .color {
+	text-decoration: underline;
+}
+
+.text-face {
+	padding-top: 5px;
+	float: left;
 }
 
 /*Services*/

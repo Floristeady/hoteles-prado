@@ -27,21 +27,21 @@
 			  </tr>
 			  <tr>
 			    <td><p><strong>SENCILLA</strong></p></td>
-			    <td><p>$540</p></td>
+			    <td><p>$590</p></td>
 			    <td><p>--</p></td>
 			    <td><p>--</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>DOBLE</strong></p></td>
-			     <td><p>$600</p></td>
-			    <td><p>$690</p></td>
-			    <td><p>$770</p></td>
+			     <td><p>$670</p></td>
+			    <td><p>$750</p></td>
+			    <td><p>$830</p></td>
 			  </tr>
 			  <tr>
 			    <td><p><strong>SUITE</strong></p></td>
-			     <td><p>$850</p></td>
-			    <td><p>$950</p></td>
-			    <td><p>$950</p></td>
+			     <td><p>$910</p></td>
+			    <td><p>$990</p></td>
+			    <td><p>$1070</p></td>
 			  </tr>
 			</table>
 			

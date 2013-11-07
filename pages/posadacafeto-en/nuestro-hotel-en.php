@@ -58,6 +58,7 @@
 					<li><span class="icon-address"></span>Canovas 8, Xalapa, Veracruz, México. 91000</li>
 					<li class="two"><span class="icon-phone"></span>(228) 817 0023 / 812 0403</li>
 					<li class="three"><span class="icon-email"></span>cafeto@pradodelrio.com </li>
+					<li class="four"><a target="_blank" href="https://www.facebook.com/posada.delcafeto"><span class="icon-face"></span><span class="text-face">Visit us on <span class="color">Facebook</span></span></a></li>
 					
 				</ul>
 			</div>
