@@ -27,7 +27,7 @@
 			  </tr>
 			  <tr>
 			    <td><p><strong>Six bed male or female dorm </strong></p></td>
-			    <td><p>$160</p></td>
+			    <td><p>$170</p></td>
 			    <td><p>---</p></td>
 			     <td><p>---</p></td>
 			  </tr>
