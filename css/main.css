@@ -678,6 +678,7 @@ footer#hotels{
 
 #menu-secundary li.center {
 	padding: 0px 65px;
+	margin: 0 auto 0;
 }
 
 #pages #menu-secundary li a {
@@ -2078,7 +2079,7 @@ td p {
 	#menu-secundary li.center {padding: 0px;}
 	#menu-secundary {float: left;}
 	#menu-content .menu ul {width: 100%; text-align: inherit; float: left;}
-	#menu-content .menu li { display: inline; width: 33%; text-align: center; padding: 3px 0px 5px; float: left;}
+	#menu-content .menu li { display: inline; width: 33%; text-align: center; padding: 3px 0px 5px !important; float: left;}
 	
 	/*Mesón Coatepec*/
 	.meson-coa #menu-content .menu li { font-size: 0.8em; width: 33.3%;}

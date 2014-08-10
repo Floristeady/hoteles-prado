@@ -80,9 +80,9 @@ $template = $pages[$page_id]["template"];
 				        <ul class="menu">
 					        <li><a href="?page_id=0" class="<?php if ($page_id == 0) { ?>active<? } ?>">Nuestro Hotel</a></li>
 					        <li><a href="?page_id=1" class="<?php if ($page_id == 1) { ?>active<? } ?> ">Habitaciones</a></li>
-					        <li><a href="?page_id=2" class="<?php if ($page_id == 2) { ?>active<? } ?> ">Restaurante</a></li>
+					        <li style="padding-right:60px;"><a href="?page_id=2" class="<?php if ($page_id == 2) { ?>active<? } ?> ">Restaurante</a></li>
 					        <li class="center"><a></a></li>
-					        <li><a href="?page_id=3" class="<?php if ($page_id == 3) { ?>active<? } ?> ">Tarifas</a></li>
+					        <li style="display:none;"><a href="?page_id=3" class="<?php if ($page_id == 3) { ?>active<? } ?> ">Tarifas</a></li>
 					        <li><a href="?page_id=4" class="<?php if ($page_id == 4) { ?>active<? } ?>" >Acerca de Xalapa</a></li>
 					        <li><a target="_blank" href="https://reservations.easy-rez.com/be/?token=d66a1c737af6627e3d55e5b64ec4749a&ln=es" class="<?php if ($page_id == 5) { ?>active<? } ?>">Reservaciones</a></li>
 
