@@ -5,7 +5,7 @@
 	<div id="content-text">
 	    <span class="text">
 	    	<h2><span class="line-white-2 f-left"></span>Mesón del Alférez Coatepec<span class="line-white-2 f-right"></span></h2>
-	    	<a class="btn-booking" target="_blank" href="https://reservations.easy-rez.com/be/?token=70965714cde9becba18c420d27c08054&ln=es">Reservations</a>
+	    	<a class="btn-booking" target="_blank" href="https://reservations.easy-rez.com/be/?token=70965714cde9becba18c420d27c08054&ln=en">Reservations</a>
 		</span>
 	</div>
         

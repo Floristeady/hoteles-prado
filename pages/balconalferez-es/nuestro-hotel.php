@@ -72,7 +72,7 @@
 					<li>TV por cable</li> 
 					<li>Secadora de cabello </li> 
 					<li>Cafetera </li> 
-					<li>Desayuno continental de cortesía en La Candela</li> 
+					<li>Desayuno caliente de cortesía en La Candela</li> 
 					<li>Internet inalámbrico </li> 
 					<li>Caja de seguridad </li> 
 					<li>Restaurante </li> 

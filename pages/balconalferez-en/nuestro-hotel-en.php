@@ -72,7 +72,7 @@
 					<li>TV with national and international channels</li> 
 					<li>Hair dryer </li> 
 					<li>Coffee & Tea maker</li> 
-					<li>Complementary continental breakfast at La Candela </li> 
+					<li>Complementary hot breakfast at La Candela </li> 
 					<li>Wireless internet</li> 
 					<li>Safety Box</li> 
 					<li>Restaurant</li> 

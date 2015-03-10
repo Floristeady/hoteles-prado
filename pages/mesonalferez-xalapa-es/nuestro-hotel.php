@@ -83,7 +83,7 @@
 					<li>TV con canales nacionales e internacionales </li> 
 					<li>Secadora de cabello </li> 
 					<li>Cafetera </li> 
-					<li>Desayuno continental de cortesía</li> 
+					<li>Desayuno caliente de cortesía</li> 
 					<li>Internet inalámbrico </li> 
 					<li>Caja de seguridad </li> 
 					<li>Restaurante </li> 

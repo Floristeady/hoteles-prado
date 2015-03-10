@@ -77,11 +77,12 @@
 					<li>Teléfono</li> 
 					<li>TV por cable</li> 
 					<li>Secadora de cabello </li> 
-					<li>Cafetera </li> 
-					<li>Desayuno caliente incluido</li> 
-					<li>Internet inalámbrico en habitación</li> 
 					<li>Restaurante (desayunos)</li> 
-					<li>Caja de seguridad </li> 
+					<li>Cafetera </li> 
+					 
+					<li>Internet inalámbrico en habitación</li>
+					<li>Desayuno caliente de cortesía</li> 
+					<li>Caja de seguridad </li>
 					<li>Estacionamiento cercano incluido </li> 
 					<li>Lavandería (costo adicional)</li> 
 				</ul>

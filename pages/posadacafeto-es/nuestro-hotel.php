@@ -77,7 +77,7 @@
 					<li>TV por cable</li> 
 					<li>Secadora de cabello </li> 
 					<li>Cafetera </li> 
-					<li>Desayuno continental incluido</li> 
+					<li>Desayuno caliente de cortesía</li> 
 					<li>Internet inalámbrico </li> 
 					<li>Caja de seguridad </li> 
 					<li>Cafetería (desayunos)</li> 

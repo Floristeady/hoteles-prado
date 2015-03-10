@@ -48,7 +48,7 @@
 				<h2>A comfortable and great value inn in downtown Xalapa</h2>
 				<div class="decor"><span class="line-red f-left"></span>k<span class="line-red f-right"></span></div>
 			</div>
-			<p>Posada del Cafeto offers quaint and bright rooms surrounding and tidy garden, in a quiet street, at walking distance from the center.</p>
+			<p>Posada del Cafeto offers quaint and bright rooms surrounding a tidy garden, in a quiet street, at walking distance from the center.</p>
 			
 		</div>
 		<div class="col-right">
@@ -77,7 +77,7 @@
 					<li>Cable TV</li> 
 					<li>Hair dryer </li> 
 					<li>Coffee & Tea maker</li> 
-					<li>Complementary continental breakfast </li> 
+					<li>Complementary hot breakfast </li> 
 					<li>Wireless internet in Lobby</li> 
 					<li>Safety Box</li> 
 					<li>Restaurant (breakfast)</li> 
