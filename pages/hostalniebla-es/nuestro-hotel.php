@@ -5,7 +5,7 @@
 	<div id="content-text">
 	    <span class="text">
 	    	<h2><span class="line-white-2 f-left"></span>Hostal de la Niebla<span class="line-white-2 f-right"></span></h2>
-	    	<a class="btn-booking" href="http://www.powerhostels.com/hbaffiliate/index.cfm?affid=5917&hostel=5917&lan=es">Reservaciones</a>
+	    	<a class="btn-booking" target="_blank" href="http://es.hostelbookers.com/hostels/mexico/xalapa/5917/">Reservaciones</a>
 		</span>
 	</div>
         
